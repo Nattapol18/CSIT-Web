@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300&display=swap');
+
+html {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 100%;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.header {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+/* Container holding the image and the text */
+.head-img{
+    filter: blur(1px);
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    font-size: 21px;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+body{
+    margin: 0;
+    display: block;
+}
+
+/* Nav Bar */
+.navbar {
+    display: inline-block;
+    list-style: none;
+    font-size: 18px;
+    margin-right: 50px;
+    margin-top: -5px;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: limegreen;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 0 10px #666;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+article {
+    margin: 0;
+}
+article h3{
+    border-bottom-style:ridge;
+    color: rgb(0, 0, 0);
+    margin: 1.5em 0 2em 0;
+}
+
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h4{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#content-element{
+    padding: 10px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    box-sizing: border-box;
+}   
+div, p, ul, li, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+div{
+    display: block;
+}
+.top-title {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+.text-discription{
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+#img-teacher{
+    float: left;
+    width: 100px;
+    margin: 5px 15px;
+}
+#img-contact{
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-element{
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    padding: 0 15% 0 15%;
+    margin: 0 auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#icon-discription{
+    text-align: center;
+    padding: 0 15% 0 15%;
+    color: #ffffff;
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#content-head{
+    border-bottom: ridge 1px silver;
+    margin: 1em;
+}
+#download-icon{
+    width: 20px;
+    vertical-align: middle;
+}
+.doc-content{
+    display: flex;
+    padding-left: 5%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+article dd{
+    padding-bottom: 1em;
+}
+dd{
+    display: block;
+    margin-inline-start: 40px;
+    padding-top: 0.5em
+}
+article dt {
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+dt{
+    display: block;
+    font-weight: bold;
+}
+section{
+    padding: 0 15% 0 15%;
+}
+article dl {
+    margin: 5px;
+    margin-left: 130px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+dl{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#tab{
+    margin: 10px 5px 5px 0;
+    font-style: italic;
+    border-bottom: dotted 0.1em #9C9C9C;
+}
+/* End Nav */
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: limegreen;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+  }
+@media screen and (max-width:720px) {
+    section {width:95%; margin:5px;}
+    header > section {padding: 1em 0 1em 0;margin: 0;}
+    nav {text-align: left;padding: 0 5px 0 5px;}
+    nav ul {width: 80%;}
+    nav h2 {display:none;}
+    nav ul li {position: static;padding: 0;}
+    nav li ul {display: block;box-shadow:none;}
+    nav ul li ul li {display: list-item;}
+    nav ul li a {display: inline-block;font-size: small;}
+    nav li:hover ul {position: static;}
+    ul.navbar li:not(:first-child) {display: none;}
+      ul.navbar li.icon {
+        display: inline-block;
+        }
+    article > section {padding: 0 2% 0 3%; font-size: small;}
+    article > section > nav {padding: 0 2% 0 2%;}
+    article > section > h4 {padding-left: 0;margin-left: 0;}
+    article > section > dl {margin-left:0;}
+    article > section > div{margin: 0 0.5em 0 0;font-size: 1.1em;display: block;}
+    #pic_r,#pic_l,#pic_home {width: 100%;}
+    article > section > div > table {width: 100%;}
+    article > section > div > img {margin-left: 0; width: 100%;}
+    article > section > #img {width: 30%;}
+    article dl{float: inherit; margin-left: 0;}
+    footer {min-height: 200px;}
+    footer > #right {display:none;}
+    footer > #left  {padding: 2em;}
+    footer > section > iframe {display: none;}
+    
+}
+
+@media screen and (max-width:680px) {
+      ul.navbar.responsive {position: relative;}
+      ul.navbar.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+
+      }
+      ul.navbar.responsive li {
+        float: none;
+        display: inline;
+      }
+      ul.navbar.responsive li a {
+        display: block;
+        text-align: left;
+        width: 100%;
+      }
+    }
+    @media screen and (max-width:720px) {
+		container, section, aside, article,footer{width:95%; margin:5px;}
+		nav ul {display:none;}
+	}
+	
